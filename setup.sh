@@ -8,7 +8,7 @@ sudo chsh -s /usr/bin/zsh
 
 cd ~/
 git clone https://github.com/jtvana/dotfiles.git
-mv dotfiles/.* ~/
+mv dotfiles/.??* ~/
 echo "export LD_LIBRARY_PATH=/usr/lib/wsl/lib:\$LD_LIBRARY_PATH" >> ~/.zshrc
 
 # Setting up CUDA drivers
